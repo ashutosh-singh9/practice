@@ -6,3 +6,7 @@
 //     console.log(word[i]);
 // };
 
+let arr = ["Ashu","Krishna","Rohan","Rishi","Sakshi"];
+// let revArr = arr.reverse()
+// let sliceArr = revArr.slice(2,4)
+
