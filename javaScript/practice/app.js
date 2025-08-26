@@ -24,4 +24,4 @@
 // users.sort((a, b) => a.name.localeCompare(b.name));
 // console.log(users);
 
-// let arr = ["Ashu","Krishna","Rohan","Rishi","Sakshi"];
+let arr = ["Ashu","Krishna","Rohan","Rishi","Sakshi"];
