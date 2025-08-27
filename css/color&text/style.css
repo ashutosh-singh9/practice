@@ -1,0 +1,44 @@
+#first{
+    background-color: blue;
+}
+
+#second{
+    
+    color: rgb(255, 0, 0);
+}
+
+#third{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    color: rgba(255, 0, 0, 0.3);
+}
+
+
+
+#forth{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    opacity: 0.3;
+}
+
+.sp{
+    color: rgb(255, 0, 0);
+}
+
+#fifth{
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(crimson, skyblue, yellow);
+}
+
+#sixth{
+    height: 400px;
+    width: 400px;
+    background: url("https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg");
+    background-size: cover;
+    /* background: left 5% / 15% 60% repeat-x */
+  /* url("https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"); */
+}
