@@ -1,0 +1,76 @@
+span {
+  padding: 20px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.Box {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: rgb(53, 209, 13);
+  padding: 10px;
+  border: 10px red solid;
+  margin: 10px;
+}
+
+#first {
+  box-sizing: border-box;
+}
+
+#second {
+  box-sizing: content-box;
+}
+
+#main_card {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(223, 129, 8);
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#main_card:hover {
+  box-shadow: 0px 5px 20px black;
+  transform: scale(1.02);
+}
+
+
+#img_card {
+  height: 200px;
+  /* width: 90%; */
+  background-color: blueviolet;
+  /* position: relative; */
+  /* left: 15px; */
+  /* top: 15px; */
+  /* border-radius-top-left: 10%; */
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-bottom: 10px;
+}
+
+#name_card {
+  height: 50px;
+  /* width: 90%; */
+  background-color: brown;
+  /* position: relative; */
+  /* left: 15px; */
+  /* top: 25px; */
+    margin-bottom: 10px;
+
+}
+
+#desc_card {
+  position: relative;
+  height: 100px;
+  /* width: 90%; */
+  background-color: blanchedalmond;
+  /* left: 15px;
+  top: 35px; */
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
